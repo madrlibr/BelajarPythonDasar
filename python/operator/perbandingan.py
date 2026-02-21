@@ -1,6 +1,6 @@
-"""
+"""  
 Operator perbandingan adalah operator untuk membandingan sebuah nilai dan akan menghasilkan nilai boolean yaitu
-True ataupun false
+True ataupun False
 """
 
 a = 10 == 10 #Ini seperti bertanya "Apakah 10 sama dengan 10" kalau hasilnya True berarti benar bahwa 10 sama dengan 10
@@ -23,13 +23,14 @@ angka1 = 10
 angka2 = 12
 
 perbandingan = angka1 == angka2
-print(perbandingan)
+print(f"{angka1} dan {angka2} sama? {perbandingan}")
 
 #Atau
 teks1 = "sawit"
 teks2 = "monokotil"
 
 perbandinganTeks = teks1 != teks2
-print(perbandinganTeks)
+print(f"Apakah {teks1} dan {teks2} tidak sama? {perbandinganTeks}")
+
 
 #Operator perbandingan banyak digunakan untuk looping untuk menyatakan sebuah kondisi yang nanti kita akan dibahas di file lain

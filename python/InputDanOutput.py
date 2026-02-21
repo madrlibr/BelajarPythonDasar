@@ -2,6 +2,7 @@
 Disini kita akan belajar Input dan output
 Input: adalah fungsi untuk menangkap input atau nilai yang dimasukan user untuk diolah
 Output: Hasil dari input
+
 Contoh dalam kehidupan sehari-hari:
 Kamu memasukan uang kedalam vending machine, lalu vending machine itu mengeluarkan makanan/minuman
 nah disini uang adalah input dan makanan/minuman itu outputnya

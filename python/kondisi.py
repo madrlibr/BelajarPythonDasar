@@ -15,15 +15,15 @@ if umur < 18: #kita pakai operator perbandingan yaitu >
 
 """
 Jika kita pakai bahasa manusia untuk membaca baris kode diatas, maka bisa dibaca
-"variabel umur adalah 11, jika kurang dari 10 maka cetak()Umur kurang dari 18, tidak bisa masuk!"
+"variabel umur adalah 11, jika kurang dari 10 maka cetak("Umur kurang dari 18, tidak bisa masuk!")
 
-nah baris "if x > 10" bisa dianggap sebagai sebab/penyebab dan baris didalamnnya yaitu print("x lebih besar dari 10")
+nah baris "if umur < 18" bisa dianggap sebagai sebab/penyebab dan baris didalamnnya yaitu print("Umur kurang dari 18, tidak bisa masuk")
 adalah akibatnya
 
 lalu bagaimana jika umur lebih dari 10? nah disana kita memakai else, dimana jika blok if atau kondisi if tidak
-dipenuhi atau false, maka program akan menjalan blok else.
-lalu kondisi else itu apa? else akan otomatis menjadi kebalikan dari if, jika if < 18 maka else secara otomatis akan menjadi
-else > 18, tapi dalam penulisan, kita tidak perlu menulis bagian "> 18" karena akan terisi otomatis 
+dipenuhi atau False, maka program akan menjalan blok else.
+lalu kondisi else itu apa? kondisi else akan otomatis menjadi kebalikan dari if, jika if < 18 maka else secara otomatis akan menjadi
+else > 18 tanpa harus kita menulis bagian > 18
 """
 
 #Contoh:
@@ -40,17 +40,16 @@ else:
 """
 ELSE IF
 
-Nah kalau else if satu tingkat dibawah if, jika if bernilai True, else if tidak akan dijalankan tapi
-kalau if false, maka yang dijalankan adalah else if bukan else, baru kalau if dan else if false maka else yang akan dijalankan
+Nah kalau "else if" itu satu tingkat dibawah if, jika if bernilai True, else if tidak akan dijalankan tapi
+kalau if bernilai False, maka yang dijalankan adalah "else if" bukan else, baru kalau if dan else if false maka else yang akan dijalankan
 """
 
 #Contoh
-
 Nilai = 85
 
 if Nilai >= 90:
     print("Nilai A")
-elif Nilai >= 80:
+elif Nilai >= 80: 
     print("Nilai B") # Ini akan dijalankan karena 85 >= 80
 elif Nilai >= 70:
     print("Nilai C")

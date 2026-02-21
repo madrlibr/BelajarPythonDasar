@@ -8,13 +8,14 @@ dengan kondisi yang ditentukan, mirip dengan konsep kondisi seperti if-else
 konsep if-else:
 jika suatu kondisi terjadi/dipenuhi, maka jalankan blok kode dibawah
 
-konsep looping(tergantung tipe looping):
-selama suatu kondisi/situasi terpenuhi, maka jalankan kode dibawah ini selama kondisi/situasinya True
+konsep looping(while loop):
+selama suatu kondisi/situasi terpenuhi atau terjadi, maka jalankan blok kode dibawah ini secara terus menerus selama kondisinya terpenuhi/True
 
-Dibaawah ini kita akan membahas while loop
+
+Dibawah ini kita akan membahas while loop
 """
 
-#Bentuk while loop
+#while loop
 bangun_tidur = False
 
 while bangun_tidur == False: #bangun_tidur == False adalah kondisinya

@@ -15,7 +15,11 @@ i = 11.100 #ini float
 e = True #ini boolean
 s = False #ini juga boolean
 #Untuk boolean harus diawali dengan kapital, jika seperti dibawah ini
-#m = true #ini akan error karena true dianggap sebagai variabel
-#n = false #ini juga akan error karena false dianggap sebagai variabel
+s = true #ini akan error karena true dianggap sebagai nama variabel
+n = false #ini juga akan error karena false juga dianggap sebagai nama variabel
 
-#Untuk melihat semua hasilnya kalian bisa print saja variabelnya, dan hapus dulu variabel m dan n karena akan menyebabkan error
+#Cara mengcek tipe dataL
+tipe_data_a = type(a)
+print(f"Tipe data a: {tipe_data_a}")
+#Atau juga bisa langsung tanpa membuat variabel
+print(type(n))
