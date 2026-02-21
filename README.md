@@ -1,6 +1,5 @@
-# Pembelajaran Coding/Pemgrograman\
-Disini kalian akan belajar mengenai dasar dasar dari pemrograman dengan penjelasan yang mudah dimengerti
-
+# Modul belajar Python dasar
+Disini kalian akan belajar mengenai dasar dari bahasa pemrograman Python.
 
 ### Instalasi Projek
 
