@@ -1,6 +1,5 @@
 # Modul belajar Python dasar
-Disini kalian akan belajar mengenai dasar dari bahasa pemrograman Python.
-
+Modul pembelajaran Python dasar berbasis file dan penjelasan lewat teks
 ### Cara Instalasi
 
 1. Clone the repository
